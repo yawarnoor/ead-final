@@ -4,13 +4,9 @@ const Schema = mongoose.Schema;
 
 const timeSlotSchema = new Schema(
     {
-        startTime: {
-            hour:{ type: String, required: true },
-            minute: { type: String, required: true }},
-        endTime: {
-            hour:{ type: String, required: true },
-            minute: { type: String, required: true }},
-        isBooked: { type: Boolean, required: true },
+        startTime: {type: String, required: true },
+        endTime: { type: String, required: true },
+        isBooked: { type: String, required: false },
     }, {timestamps: true}
 );
 

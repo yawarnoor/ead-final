@@ -4,11 +4,8 @@ const Schema = mongoose.Schema;
 
 const appointmentSchema = new Schema(
     {
-        slotId:{ type: String, required: true },
-
-        userDetails: {
-            name:{ type: String, required: true },
-            email: { type: String, required: true }},
+        name:{ type: String, required: true },
+        email: { type: String, required: true },
     }, {timestamps: true}
 );
 
