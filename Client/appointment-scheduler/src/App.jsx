@@ -21,7 +21,7 @@ function App() {
     
     {
     path: '/',  
-    element: <Booked/>
+    element: <Booked data={data}/>
     },
     {
       path: '/create',  

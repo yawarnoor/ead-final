@@ -1,10 +1,12 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-export default function Booked() {
+export default function Booked({data}) {
   return (
+
     <div>
     <h2>Booked Appointments</h2>
+    
     <h3>name</h3>
     <h4>Slot: time</h4>
     <h4>email</h4> <br/><br/>
